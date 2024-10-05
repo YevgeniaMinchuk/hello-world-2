@@ -8,7 +8,42 @@ body {
     margin: 0;   /* Removes default margins */
 }
 
-img {
-    width: 100%   /* Default responsive image */
+.masthead {
+    background-image: url('images/mac.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;
+    border-radius: 20px;
+}
 
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details section {
+    flex-grow: 1;
+    flex-basis: 0;  /* Content will be evenly distributed */
+    background: #eee;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;   /* Default responsive image */
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4em;
 }
