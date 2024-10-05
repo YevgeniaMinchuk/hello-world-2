@@ -1,9 +1,13 @@
 * {
     font-family: Helvetica, sans-serif;
 }
+
 body {
     background: #fff;
+    border-top: 15px solid #424242;
+    margin: 0;   /* Removes default margins */
 }
+
 img {
     width: 100%   /* Default responsive image */
 
